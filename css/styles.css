@@ -1,0 +1,120 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: "Comic Sans MS", "Comic Sans", Helvetica;
+}
+
+/*HEADER*/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: "Comic Sans MS", "Comic Sans", Helvetica;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .5;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  list-style: none;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  width:100%;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/*Header ends here*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: "Comic Sans MS", "Comic Sans", Helvetica;
+  color: black;
+  font-weight: bold;
+  font-size: 15px; 
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#menu{
+  font-family: "Comic Sans MS", "Comic Sans", Helvetica;
+  color: black;
+  font-weight: bold;
+  font-size: 32px; 
+  margin-top: 10px;
+}
+
+#box{
+  background-color: grey;
+  padding: 0px;
+  border: 1px solid black;
+  margin-top: 5px;
+  position: relative;
+  overflow: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+#meal{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: @screen-xs-max) {  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1{ 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+
+}
+
